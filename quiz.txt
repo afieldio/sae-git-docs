@@ -11,7 +11,7 @@ A. git status
 
 Q. How do you create a new branch?
 
-A. git branch -b [Branch Name]
+A. git branch [Branch Name]
 
 
 Q. What role does the tilde play
@@ -22,3 +22,9 @@ A. Moves pointer by x commits
 Q. What is Pete's favourite animal
 
 A. GitBear
+
+
+Q. Which command moves the pointer?
+
+A. git checkout [desired location]
+
