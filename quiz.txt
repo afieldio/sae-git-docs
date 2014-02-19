@@ -1,0 +1,5 @@
+This is going to be a quix for those who do not know about Git!
+
+Q. How do you initialise git?
+
+A. git init
