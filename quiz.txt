@@ -8,3 +8,8 @@ A. git init
 Q. How do you check the current status of your git repository?
 
 A. git status
+
+
+Q. How do you find the history?
+
+A. git log
