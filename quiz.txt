@@ -4,7 +4,6 @@ Q. How do you initialise git?
 
 A. git init
 
-
 Q. How do you check the current status of your git repository?
 
 A. git status
@@ -13,3 +12,8 @@ A. git status
 Q. How do you create a new branch?
 
 A. git branch -b [Branch Name]
+
+
+Q. What role does the tilde play
+
+A. Moves pointer by x commits
