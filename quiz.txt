@@ -18,6 +18,6 @@ Q. What role does the tilde play
 
 A. Moves pointer by x commits
 
-Q. Which command moves the pointer?
+Q. Which command moves the the index, working tree, and HEAD to a different branch?
 
-A. git checkout [desired location]
+A. git checkout [desired branch location]
