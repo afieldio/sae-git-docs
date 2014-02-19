@@ -17,3 +17,8 @@ A. git branch -b [Branch Name]
 Q. What role does the tilde play
 
 A. Moves pointer by x commits
+
+
+Q. What is Pete's favourite animal
+
+A. GitBear
