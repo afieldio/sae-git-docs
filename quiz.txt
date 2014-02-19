@@ -32,3 +32,10 @@ A. git checkout [desired location]
 Q. Which command moves the the index, working tree, and HEAD to a different branch?
 
 A. git checkout [desired branch location]
+
+
+Q. How do you merge branches?
+
+A. Make sure you are in the master branch! Then you can use
+
+git merge [branch name]
