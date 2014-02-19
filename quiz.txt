@@ -24,7 +24,7 @@ A. Moves pointer by x commits
 
 Q. Which command moves the the index, working tree, and HEAD to a different branch?
 
-A. git checkout [desired branch location
+A. git checkout [desired branch location]
 
 Q. Which command saves local changes without committing them?
 
