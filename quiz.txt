@@ -20,4 +20,4 @@ A. Moves pointer by x commits
 
 Q. Which command moves the pointer?
 
-A. checkout [desired location]
+A. git checkout [desired location]
