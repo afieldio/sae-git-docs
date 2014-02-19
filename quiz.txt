@@ -8,19 +8,19 @@ Q. How do you check the current status of your git repository?
 
 A. git status
 
+Q. What is Pete's favourite animal
+
+A. GitBear
+
+// PETES BIT STARTS
 
 Q. How do you create a new branch?
 
 A. git branch [Branch Name]
 
-
 Q. What role does the tilde play
 
 A. Moves pointer by x commits
-
-Q. What is Pete's favourite animal
-
-A. GitBear
 
 Q. Which command moves the the index, working tree, and HEAD to a different branch?
 
@@ -29,3 +29,5 @@ A. git checkout [desired branch location
 Q. Which command saves local changes without committing them?
 
 A. git stash
+
+// PETES BIT ENDS
