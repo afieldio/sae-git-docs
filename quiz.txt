@@ -18,19 +18,17 @@ Q. What role does the tilde play
 
 A. Moves pointer by x commits
 
-<<<<<<< HEAD
 
 Q. What is Pete's favourite animal
 
 A. GitBear
 
 
-Q. Which command moves the pointer?
+Q. Which command moves the head?
 
 A. git checkout [desired location]
 
-=======
+
 Q. Which command moves the the index, working tree, and HEAD to a different branch?
 
 A. git checkout [desired branch location]
->>>>>>> ea2a24c8c9470100ff45f97545afe0ea5a389e77
