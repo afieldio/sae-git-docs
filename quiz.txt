@@ -8,29 +8,30 @@ Q. How do you check the current status of your git repository?
 
 A. git status
 
+Q. What is Pete's favourite animal
+
+A. GitBear
+
+// PETES BIT STARTS
 
 Q. How do you create a new branch?
 
 A. git branch [Branch Name]
 
-
 Q. What role does the tilde play
 
 A. Moves pointer by x commits
 
-Q. What is Pete's favourite animal
-
-A. GitBear
-
 Q. Which command moves the the index, working tree, and HEAD to a different branch?
 
-A. git checkout [desired branch location
+A. git checkout [desired branch location]
 
 
 Q. Which command saves local changes without committing them?
 
 A. git stash
 
+<<<<<<< HEAD
 
 Q. How do you move the head?
 
@@ -42,3 +43,6 @@ Q. How do you merge branches?
 A. Make sure you are in the master branch! Then you can use
 
 git merge [branch name]
+=======
+// PETES BIT ENDS
+>>>>>>> 8a05bbda521134d81ed2f6cfee1754a14b9abc6b
