@@ -8,3 +8,6 @@ Q. How do you check the current status of your git repository?
 
 A. git status
 
+Q. What role does the tilde play
+
+A. Moves pointer by x commits
