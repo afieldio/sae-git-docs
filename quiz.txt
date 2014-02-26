@@ -12,6 +12,10 @@ Q. What is Pete's favourite animal
 
 A. GitBear
 
+Q. How do you find the history?
+
+A. git log
+
 // PETES BIT STARTS
 
 Q. How do you create a new branch?
