@@ -4,15 +4,45 @@ Q. How do you initialise git?
 
 A. git init
 
-
 Q. How do you check the current status of your git repository?
 
 A. git status
 
+Q. What is Pete's favourite animal
+
+A. GitBear
+
+// PETES BIT STARTS
+
 Q. How do you create a new branch?
 
-A. git branch [branchname]
+A. git branch [Branch Name]
 
-Q. How do you find the history?
+Q. What role does the tilde play
 
-A. git log.
+A. Moves pointer by x commits
+
+Q. Which command moves the the index, working tree, and HEAD to a different branch?
+
+A. git checkout [desired branch location]
+
+
+Q. Which command saves local changes without committing them?
+
+A. git stash
+
+<<<<<<< HEAD
+
+Q. How do you move the head?
+
+A. git checkout [desired branch location]
+
+
+Q. How do you merge branches?
+
+A. Make sure you are in the master branch! Then you can use
+
+git merge [branch name]
+=======
+// PETES BIT ENDS
+>>>>>>> 8a05bbda521134d81ed2f6cfee1754a14b9abc6b
