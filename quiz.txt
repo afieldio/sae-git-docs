@@ -44,3 +44,7 @@ A. Make sure you are in the master branch! Then you can use
 
 // PETES BIT ENDS
 
+Q. how do you fetch changes from a remote repo
+
+A. ????????????????
+
