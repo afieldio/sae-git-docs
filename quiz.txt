@@ -12,6 +12,10 @@ Q. What is Pete's favourite animal
 
 A. GitBear
 
+Q. What is better than trains?
+
+A. Nothing is better.
+
 Q. How do you find the history?
 
 A. git log
