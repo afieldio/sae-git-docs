@@ -58,5 +58,5 @@ A. git clone [remote- url]
 
 Q.How do you push to a remote repository?
 
-A.Make you have committed locally first, then carry out.. git push [alias] [branch]. 
+A.Make sure you have committed locally first, then carry out.. git push [alias] [branch]. 
 
