@@ -1,0 +1,110 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Consolas;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red234\green234\blue234;\red234\green54\blue39;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15480\viewh9380\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs28 \cf0 Git Reference\
+\
+git clone\
+git init\
+git add  - (stages a file)\
+git commit (commit all staged)\
+git commit -m (short message)\
+git commit -a (all changed files \'85 allows skip staging)\
+\
+git status (list status of tracked files)\
+\
+\
+git diff (unstaged changes)\
+git diff --cached  (staged changes)\
+git diff --staged\
+\
+git rm (remove & delete)\
+rm (the same)\
+-f is needed if modified, staged and uncommitted\
+\
+git rm --cached (stop tracking but don't delete)\
+git rm \\*.log  (all that end in *.log)\
+git rm myDir/\\*.cpp\
+\
+mv fileOld.txt fileNew.txt (move a file) \
+\
+git commit --amend (include extra changes in your last commit)\
+git reset HEAD mysrc.txt (unstage an accidentally staged file)\
+git checkout -- myscrc.txt (unmodify a modified file) [CAREFUL]\
+\pard\pardeftab720\sl360
+\cf0 git checkout HEAD~10 (checkout 10 revisions earlier)
+\f1 \cb2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0 \cf0 \cb1 \
+\
+git remote -v (show remotes + addresses)\
+git remote add [name] [address]\
+git remote show [name] (info on \'85)\
+git remote rename [old] [new]\
+git remote rm [name]\
+\
+git tag (list tags)\
+\pard\pardeftab720\sl360
+\cf0 git tag [tag name]\
+git tag -a  [tag name] -m [annotation]\
+git mergetool (use default merge tool)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+git branch [name] (start a new branch)\
+git branch -d [name] (delete branch)\
+git branch -v (list branches + last commit)\
+git branch --merged\
+git branch --no-merged\
+\
+git checkout [branch name] (switch to a different branch)\
+\pard\pardeftab720\sl360
+\cf0 git checkout -b [branch name] [remote/remote branch] (switch to a remote branch and make a working copy/tracking branch)\
+or\
+git checkout --track origin/serverfix
+\f2 \cf3 \
+
+\f0 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 git merge [branch name] (merge with current branch)\
+\
+git rebase\
+\
+\
+git fetch [remote name] (NB. just downloads data -- no merge or switch)\
+\
+git pull (merge with tracked branch) \'85while on a tracked branch\
+\
+git push [remote] [localbranch] : [remotebranch] (leave out local branch to delete a branch)\
+\
+\
+\
+\
+git log\
+-2 (number of entries)\
+-p (display the patch)\
+--stat\
+--pretty=oneline\
+--graph\
+\'85many more\
+\
+//-------------- .gitignore syntax----------------//\
+\
+\pard\pardeftab720\sl360
+\cf0 # a comment - this is ignored\
+# no .a files\
+*.a\
+# but do track lib.a, even though you're ignoring .a files above\
+!lib.a\
+# only ignore the root TODO file, not subdir/TODO\
+/TODO\
+# ignore all files in the build/ directory\
+build/\
+# ignore doc/notes.txt, but not doc/server/arch.txt\
+doc/*.txt\
+# ignore all .txt files in the doc/ directory\
+doc/**/*.txt\
+}
