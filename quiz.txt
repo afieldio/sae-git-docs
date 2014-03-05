@@ -52,3 +52,15 @@ Q. how do you fetch changes from a remote repo
 
 A. ????????????????
 
+Q.How do you clone into your local directory?
+
+A. git clone [remote- url]
+
+Q.How do you push to a remote repository?
+
+A.Make sure you have committed locally first, then carry out.. git push [alias] [branch].
+
+Q.How do you show information about a git object?
+
+A. Use show [options] <object>, for example, git show v1.0.0.
+
